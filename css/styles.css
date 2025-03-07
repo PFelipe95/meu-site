@@ -1,0 +1,50 @@
+
+section {
+  min-height: 100vh; /* Garante altura mínima de 100% da tela */
+  background-color: aqua;
+}
+
+@media (max-width: 800px) {
+  section {
+    min-height: auto; /* Permite que a seção cresça conforme o conteúdo */
+  }
+}
+#img-home {
+  border-radius: 15%;
+  /* margin: auto; */
+}
+.tecs {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+
+}
+.tecs:hover {
+  width: 130px;
+  height: 130px;
+  box-shadow: 5px 5px 5px #000000;
+  position: relative;
+}
+
+.imgs-logos-tecs {
+  margin: auto;
+  width: 100px;
+  padding: 15px;
+  /* border: solid 1px black; */
+  border-radius: 20%;
+
+}
+
+.imgs-logos-tecs:hover {
+  width: 130px;
+  padding: 15px;
+  /* background-color: blueviolet; */
+}
+
+.imgs-carrosel {
+  width: 100%;
+}
+
+.icons {
+  width: 100px;
+}
